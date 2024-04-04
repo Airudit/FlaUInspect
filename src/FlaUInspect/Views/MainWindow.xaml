@@ -26,6 +26,7 @@
                     <MenuItem Header="_New Instance" Command="{Binding StartNewInstanceCommand}" />
                     <MenuItem Header="_Capture selected item" Command="{Binding CaptureSelectedItemCommand}" />
                     <MenuItem Header="_Refresh" Command="{Binding RefreshCommand}" InputGestureText="F5" />
+                    <MenuItem Header="_Export" Command="{Binding ExportCommand}"  />
                     <Separator />
                     <MenuItem Header="E_xit" Click="MenuItem_Click" />
                 </MenuItem>
